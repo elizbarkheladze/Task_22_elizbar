@@ -11,6 +11,17 @@
 		2D72698028A7BCE500C31E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72697F28A7BCE500C31E74 /* ContentView.swift */; };
 		2D72698228A7BCEB00C31E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D72698128A7BCEB00C31E74 /* Assets.xcassets */; };
 		2D72698528A7BCEB00C31E74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D72698428A7BCEB00C31E74 /* Preview Assets.xcassets */; };
+		2D72698F28A7C26700C31E74 /* TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72698E28A7C26700C31E74 /* TV.swift */; };
+		2D72699228A7C30400C31E74 /* TVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699128A7C30400C31E74 /* TVService.swift */; };
+		2D72699428A7C54400C31E74 /* TVs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699328A7C54400C31E74 /* TVs.swift */; };
+		2D72699628A7C62C00C31E74 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699528A7C62C00C31E74 /* Utility.swift */; };
+		2D72699828A7CCBB00C31E74 /* TVStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699728A7CCBB00C31E74 /* TVStub.swift */; };
+		2D72699B28A7D34400C31E74 /* imageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699A28A7D34400C31E74 /* imageLoader.swift */; };
+		2D72699E28A7D49B00C31E74 /* TVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699D28A7D49B00C31E74 /* TVCell.swift */; };
+		2D7269A028A7D66A00C31E74 /* TVList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72699F28A7D66A00C31E74 /* TVList.swift */; };
+		2D7269A228A7D94C00C31E74 /* TvListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7269A128A7D94C00C31E74 /* TvListState.swift */; };
+		2D7269A428A7DBB600C31E74 /* TVsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7269A328A7DBB600C31E74 /* TVsView.swift */; };
+		2D7269A728A7E1B000C31E74 /* TV_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D7269A628A7E1B000C31E74 /* TV_list.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		2D72697F28A7BCE500C31E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D72698128A7BCEB00C31E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D72698428A7BCEB00C31E74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D72698E28A7C26700C31E74 /* TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV.swift; sourceTree = "<group>"; };
+		2D72699128A7C30400C31E74 /* TVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVService.swift; sourceTree = "<group>"; };
+		2D72699328A7C54400C31E74 /* TVs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVs.swift; sourceTree = "<group>"; };
+		2D72699528A7C62C00C31E74 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2D72699728A7CCBB00C31E74 /* TVStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVStub.swift; sourceTree = "<group>"; };
+		2D72699A28A7D34400C31E74 /* imageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageLoader.swift; sourceTree = "<group>"; };
+		2D72699D28A7D49B00C31E74 /* TVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCell.swift; sourceTree = "<group>"; };
+		2D72699F28A7D66A00C31E74 /* TVList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVList.swift; sourceTree = "<group>"; };
+		2D7269A128A7D94C00C31E74 /* TvListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListState.swift; sourceTree = "<group>"; };
+		2D7269A328A7DBB600C31E74 /* TVsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVsView.swift; sourceTree = "<group>"; };
+		2D7269A628A7E1B000C31E74 /* TV_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TV_list.json; path = ../../../TV_list.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +73,16 @@
 		2D72697C28A7BCE500C31E74 /* Task_22_elizbar */ = {
 			isa = PBXGroup;
 			children = (
+				2D7269A528A7E1A900C31E74 /* resources */,
+				2D72699C28A7D48E00C31E74 /* View */,
+				2D72699928A7D33600C31E74 /* bindings */,
+				2D72699028A7C2F100C31E74 /* Service */,
+				2D72698B28A7C12000C31E74 /* Model */,
 				2D72697D28A7BCE500C31E74 /* Task_22_elizbarApp.swift */,
 				2D72697F28A7BCE500C31E74 /* ContentView.swift */,
 				2D72698128A7BCEB00C31E74 /* Assets.xcassets */,
 				2D72698328A7BCEB00C31E74 /* Preview Content */,
+				2D72699528A7C62C00C31E74 /* Utility.swift */,
 			);
 			path = Task_22_elizbar;
 			sourceTree = "<group>";
@@ -65,6 +93,51 @@
 				2D72698428A7BCEB00C31E74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D72698B28A7C12000C31E74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D72698E28A7C26700C31E74 /* TV.swift */,
+				2D72699728A7CCBB00C31E74 /* TVStub.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D72699028A7C2F100C31E74 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2D72699128A7C30400C31E74 /* TVService.swift */,
+				2D72699328A7C54400C31E74 /* TVs.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2D72699928A7D33600C31E74 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				2D72699A28A7D34400C31E74 /* imageLoader.swift */,
+				2D7269A128A7D94C00C31E74 /* TvListState.swift */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		2D72699C28A7D48E00C31E74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D72699D28A7D49B00C31E74 /* TVCell.swift */,
+				2D72699F28A7D66A00C31E74 /* TVList.swift */,
+				2D7269A328A7DBB600C31E74 /* TVsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D7269A528A7E1A900C31E74 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D7269A628A7E1B000C31E74 /* TV_list.json */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +200,7 @@
 			files = (
 				2D72698528A7BCEB00C31E74 /* Preview Assets.xcassets in Resources */,
 				2D72698228A7BCEB00C31E74 /* Assets.xcassets in Resources */,
+				2D7269A728A7E1B000C31E74 /* TV_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7269A228A7D94C00C31E74 /* TvListState.swift in Sources */,
 				2D72698028A7BCE500C31E74 /* ContentView.swift in Sources */,
+				2D7269A028A7D66A00C31E74 /* TVList.swift in Sources */,
+				2D72699228A7C30400C31E74 /* TVService.swift in Sources */,
+				2D72699628A7C62C00C31E74 /* Utility.swift in Sources */,
+				2D72699E28A7D49B00C31E74 /* TVCell.swift in Sources */,
 				2D72697E28A7BCE500C31E74 /* Task_22_elizbarApp.swift in Sources */,
+				2D72699828A7CCBB00C31E74 /* TVStub.swift in Sources */,
+				2D7269A428A7DBB600C31E74 /* TVsView.swift in Sources */,
+				2D72699428A7C54400C31E74 /* TVs.swift in Sources */,
+				2D72699B28A7D34400C31E74 /* imageLoader.swift in Sources */,
+				2D72698F28A7C26700C31E74 /* TV.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
